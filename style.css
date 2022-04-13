@@ -1,3 +1,13 @@
+header{
+  left: 0;
+  background-color:grey;
+}
+
+body{
+  display: flexbox;
+  left: 2%;
+}
+
 .principal{
   background-color: grey;
 }
@@ -13,10 +23,6 @@
   align-items:right;
   justify-content: right;
   float: right;
-}
-
-.emdestaque{
-  background-color:green
 }
 
 .lancamentos{
@@ -39,13 +45,20 @@
   display: flex;
   align-items: left;
   justify-content: left;
+  float: left;
 }
 
-header{
-  left: 0;
-  background-color:grey;
+#seletor-categoria-em-destaque{
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  align-self: right;
+  text-align: right;
+  position: right;
+  float: right;
 }
 
-body{
-  left: 2%;
+.div-em-destaque{
+  display: flex;
+  background-color: green;
 }
