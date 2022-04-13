@@ -1,0 +1,51 @@
+.principal{
+  background-color: grey;
+}
+
+.links{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.search-bar{
+  display: flex;
+  align-items:right;
+  justify-content: right;
+  float: right;
+}
+
+.emdestaque{
+  background-color:green
+}
+
+.lancamentos{
+  background-color:red;
+}
+
+#titulo-lancamento{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#titulo-nome-filme{
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+
+#titulo-em-destaque{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+header{
+  left: 0;
+  background-color:grey;
+}
+
+body{
+  left: 2%;
+}
