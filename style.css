@@ -8,6 +8,14 @@ body{
   left: 2%;
 }
 
+#img-logo{
+  display: flex;
+  width: 100px;
+  height: auto;
+  margin-left: 2%;
+  float: left;
+}
+
 .principal{
   background-color: grey;
 }
@@ -16,13 +24,16 @@ body{
   display: flex;
   text-align: center;
   justify-content: center;
+  float: center;
 }
 
 .search-bar{
   display: flex;
-  align-items:right;
-  justify-content: right;
+  position: relative;
   float: right;
+  margin-right: 2%;
+  align-items: right;
+  right: -25%; /*Atenção: Essa é uma solução gambiarra forçando a barra ficar a -25% da margem direita. Acho que não será portável para telas de tamanho diferente (minha tela tem 15 polegadas, se não me engano). Fazer direito assim que possível, por favor.*/
 }
 
 .lancamentos{
