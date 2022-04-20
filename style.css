@@ -1,6 +1,7 @@
 header{
   left: 0;
   background-color:grey;
+  height: 8vh;
 }
 
 body{
@@ -14,6 +15,7 @@ body{
   height: auto;
   margin-left: 2%;
   float: left;
+  margin-top: 0.5%;
 }
 
 .principal{
@@ -26,16 +28,16 @@ body{
   justify-content: center;
   float: center;
 }
-
+/* Depreciado/Não-usado/Descartar
 .search-bar{
-  display: flex;
+  display: flexbox;
   position: relative;
   float: right;
   margin-right: 2%;
   align-items: right;
-  right: -25%; /*Atenção: Essa é uma solução gambiarra forçando a barra ficar a -25% da margem direita. Acho que não será portável para telas de tamanho diferente (minha tela tem 15 polegadas, se não me engano). Fazer direito assim que possível, por favor.*/
+  right: -25%; /*Atenção: Essa é uma solução gambiarra forçando a barra ficar a -25% da margem direita. Acho que não será portável para telas de tamanho diferente (minha tela tem 15 polegadas, se não me engano). Fazer direito assim que possível, por favor.
 }
-
+*/
 .lancamentos{
   background-color:red;
 }
@@ -72,4 +74,41 @@ body{
 .div-em-destaque{
   display: flex;
   background-color: green;
+}
+
+.search-box{
+  display: flex;
+  float: right;
+  margin-right: 2%;
+  margin-top: -0.5%;
+  border: 1px solid black;
+}
+
+.search-text{
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+  align-items: center;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+}
+
+#lupa{
+  display: flex;
+  float: left;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  margin: 50%;
+}
+
+.erase-text-search{
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+  margin: -5%;
+  margin-top: -2%;
 }
