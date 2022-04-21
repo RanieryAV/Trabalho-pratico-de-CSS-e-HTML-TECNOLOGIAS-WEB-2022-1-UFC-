@@ -97,6 +97,7 @@ body{
 #dest{/*titulos dos destaques*/
     position: absolute;
     left: 17.5%;
+    font-size: 220%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #caixa{ /*caixa seletora dos destaques*/
@@ -110,7 +111,7 @@ body{
     display:inline;
     margin-left:30px;
     margin-right:30px;
-    top:20px;
+    top:30px;
     position: relative;
     left:15%;
 }
@@ -135,7 +136,7 @@ color:#ccc;
 background: rgb(28, 27, 27);	
 width:150px;  
 height:24px;
-margin-top: 40px;
+margin-top: 50px;
 
 margin-bottom: 20px;
 
