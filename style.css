@@ -54,28 +54,6 @@ body{
   justify-content: right;
 }
 
-#titulo-em-destaque{
-  display: flex;
-  align-items: left;
-  justify-content: left;
-  float: left;
-}
-
-#seletor-categoria-em-destaque{
-  display: flex;
-  align-items: right;
-  justify-content: right;
-  align-self: right;
-  text-align: right;
-  position: right;
-  float: right;
-}
-
-.div-em-destaque{
-  display: flex;
-  background-color: green;
-}
-
 .search-box{
   display: flex;
   float: right;
