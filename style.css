@@ -152,10 +152,10 @@ color: aquamarine;
 font: bold 12px/24px arial, helvetica, sans-aerif;	
 padding:0px;
 text-decoration: none;
-text-align:right;	
+text-align:center;	
 color:#ccc;
-background: rgb(28, 27, 27) url('botao.jpg') left center/10% no-repeat;	
-width:160px;  
+background: rgb(28, 27, 27);	
+width:150px;  
 height:24px;
 margin-top: 20px;
 
