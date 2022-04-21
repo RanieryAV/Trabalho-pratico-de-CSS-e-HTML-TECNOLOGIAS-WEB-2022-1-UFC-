@@ -199,3 +199,11 @@ header{
   
   border-radius: 5px;
       }
+
+  footer{
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+    background-color: grey;
+  }
