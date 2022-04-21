@@ -102,8 +102,7 @@ body{
 #caixa{ /*caixa seletora dos destaques*/
     position: relative;
     height: 25px;
-    margin-top: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
     left:72.5%;
     border-radius: 5px;
 }
@@ -111,6 +110,7 @@ body{
     display:inline;
     margin-left:30px;
     margin-right:30px;
+    top:20px;
     position: relative;
     left:15%;
 }
@@ -135,7 +135,7 @@ color:#ccc;
 background: rgb(28, 27, 27);	
 width:150px;  
 height:24px;
-margin-top: 20px;
+margin-top: 40px;
 
 margin-bottom: 20px;
 
