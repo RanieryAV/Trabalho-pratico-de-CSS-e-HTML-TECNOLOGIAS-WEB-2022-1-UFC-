@@ -112,9 +112,9 @@ body{
   margin: -5%;
   margin-top: -2%;
 }
-  /*parte q fiz do destaque*/
+ /*parte q fiz do destaque*/
   .div-em-destaque{/*apagar isso depois*/
-    background-color: rgb(123, 204, 123);
+    background-color: rgb(245, 175, 90);
   }
 #dest{/*titulos dos destaques*/
     position: absolute;
@@ -142,7 +142,7 @@ body{
     margin-bottom : .5em;
     table-layout: fixed;
  
-    
+
 }
 #botao{/*botao*/
 position: relative;
@@ -160,6 +160,6 @@ height:24px;
 margin-top: 20px;
 
 margin-bottom: 20px;
-background-blend-mode: difference;
+
 border-radius: 5px;
     }
