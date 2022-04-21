@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,77 +8,104 @@
   <link rel="stylesheet" href="./css/style.css">
   <title>Document</title>
 </head>
+
 <body class="body">
   <!--Recomendo fortemente trocar essa imagem de logo hospedada online para um arquivo local-->
-  <img src="./img/pngkey.com-generic-logo-png-1416946.png" width="370.3" height="119" alt="logo-generica" id="img-logo">
-    <header>
-      <!--Barra de navegação na parte de cima da home com os links principais da página-->
-      <nav class="links">
-        <a href="#">lançamentos |</a>
-        <a href="#">em destaque |</a>
-        <a href="#">avaliações |</a>
-        <a href="#">entrevistas & makingof |</a>
-        <a href="#">novidades</a>
-
-        <!--<input type="search" placeholder="Pesquisar filme" id="search" class="search-bar">-->
-      </nav>
-      <!--Barra de busca de filmes (obviamente, não-funcional, somente visual)-->
-      <div class="search-box">
-        <a class="search-button" href="#">
-          <img src="./css/magnifying-glass-solid.svg" width="20" height="20" alt="lupa" id="lupa">
-        </a>
-        <input type="search-text" class="search-text" name="text" placeholder="Pesquisar filme">
-        <a class="erase-text-search" href="#">
-          <img src="./css/circle-xmark-regular.svg" width="20" height="20" alt="lupa" id="erase-text">
-        </a>
-      </div>
-    </header>
-
-
   
-  
+  <header>
+    <img src="./img/pngkey.com-generic-logo-png-1416946.png" width="370.3" height="119" alt="logo-generica" id="img-logo">
+    <!--Barra de navegação na parte de cima da home com os links principais da página-->
+    <nav class="links">
+      <a href="#">lançamentos </a>
+      |
+      <a href="#">em destaque </a>
+      |
+      <a href="#">avaliações </a>
+      |
+      <a href="#">entrevistas & makingof </a>
+      |
+      <a href="#">novidades</a>
+
+      <!--<input type="search" placeholder="Pesquisar filme" id="search" class="search-bar">-->
+    </nav>
+    <!--Barra de busca de filmes (obviamente, não-funcional, somente visual)-->
+    <div class="search-box">
+      <a class="search-button" href="#">
+        <img src="./css/magnifying-glass-solid.svg" width="20" height="20" alt="lupa" id="lupa">
+      </a>
+      <input type="search-text" class="search-text" name="text" placeholder="Pesquisar filme">
+      <a class="erase-text-search" href="#">
+        <img src="./css/circle-xmark-regular.svg" width="20" height="20" alt="lupa" id="erase-text">
+      </a>
+    </div>
+  </header>
+
 
   <div class="principal">
 
-    <div class="lancamentos"> 
+    <div class="teste">
+      <h1>Lançamentos</h1>
 
-      <h1 id="titulo-lancamento">Lançamentos</h1>
-      <img src="" alt="">
-      <h2 id="titulo-nome-filme">Nome do filme</h2>
-      descrição
+      <div class="lancamentos">
+        <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/waTob1IM4UM" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
 
+        <div class="sinopse">
+          <h3>Thor: Love and Thunder</h3>
+          <p>Thor: Amor e Trovão é quarta aventura solo de Thor (Chris Hemsworth), personagem da Marvel. O próximo filme<br>
+            do super-herói pretende ser a sequência direta de Thor: Ragnarok e o 29º filme do Universo Cinematográfico<br>
+            Marvel. O longa, além de representar os acontecimentos de Thor: Ragnarok, promove a volta de Jane Foster<br>
+            (Natalie Portman), que se transforma na versão feminina de Thor. Os Guardiões da Galáxia terão papel<br>
+            importante na história, trazendo aventuras que podem fazer o filho de Odin questionar seu papel enquanto<br>
+            Deus do Trovão, precisando contar com o apoio de grandes aliados como Valquíria (Tessa Thompson) e Korg<br>
+            (Taika Waititi) para enfrentar suas lutas. O filme ainda apresenta Gorr (Christian Bale) - sendo o grande<br>
+            vilão da narrativa - e ainda, Zeus (Russell Crowe). </p>
+          <div class="informacoes">
+            <p>Diretor: </p>
+            <p>Roteiro: </p>
+            <p>Estreia: 2022</p>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="div-em-destaque">
-<!--parte do destaque-->
+      <!--parte do destaque-->
       <table id="tab1">
-      <h1 id="dest">Em destaque</h1>
-  
-      <select id="caixa">
-        <option value="todos">Categoria: TODOS</option>
-        <option>Aventura</option>
-        <option>Romance</option>
-        <option>Comédia</option>
-      </select>
+        <h1 id="dest">Em destaque</h1>
+
+        <select id="caixa">
+          <option value="todos">Categoria: TODOS</option>
+          <option>Aventura</option>
+          <option>Romance</option>
+          <option>Comédia</option>
+        </select>
       </table>
 
 
-          <table id="tab2">
-          <div id="f1" class="destaque"><img src="./img/filme1.png" width="200" height="290"></div>
-          <div id="f2" class="destaque"><img src="./img/filme2.png" width="200" height="290"></div>
-          <div id="f3" class="destaque"><img src="./img/filme3.png" width="200" height="290"></div>
-          <div id="f4" class="destaque"><img src="./img/filme4.png" width="200" height="290"></div>
-          </table>
+      <table id="tab2">
+        <div id="f1" class="destaque"><img src="./img/filme1.png" width="200" height="290"></div>
+        <div id="f2" class="destaque"><img src="./img/filme2.png" width="200" height="290"></div>
+        <div id="f3" class="destaque"><img src="./img/filme3.png" width="200" height="290"></div>
+        <div id="f4" class="destaque"><img src="./img/filme4.png" width="200" height="290"></div>
+      </table>
 
-          <table id="tab4">
-            <div id="botao"><a>+  Carregar mais filmes</a></div>
-          </table>
-          
-      
-<!--fim da parte do destaque-->
+      <table id="tab4">
+        <div id="botao"><a>+ Carregar mais filmes</a></div>
+      </table>
+
+
+      <!--fim da parte do destaque-->
 
     </div>
 
   </div>
 </body>
+
 </html>
