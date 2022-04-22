@@ -6,12 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
-  <title>Document</title>
+  <title>Trabalho prático de CSS - Tecnologias Web 2022.1 - Engenharia de Computação - UFC Sobral</title>
 </head>
 
 <body class="body">
-  <!--Recomendo fortemente trocar essa imagem de logo hospedada online para um arquivo local-->
-  
   <header>
     <img src="./img/pngkey.com-generic-logo-png-1416946.png" width="370.3" height="119" alt="logo-generica" id="img-logo">
     <!--Barra de navegação na parte de cima da home com os links principais da página-->
@@ -25,8 +23,6 @@
       <a href="#">entrevistas & makingof </a>
       |
       <a href="#">novidades</a>
-
-      <!--<input type="search" placeholder="Pesquisar filme" id="search" class="search-bar">-->
     </nav>
     <!--Barra de busca de filmes (obviamente, não-funcional, somente visual)-->
     <div class="search-box">
@@ -39,7 +35,6 @@
       </a>
     </div>
   </header>
-
 
   <div class="principal">
     <!--Inicio da seção de Lançamentos -->
@@ -71,8 +66,17 @@
             <p><span>Roteiro: </span>Taika Waititi, Jennifer Kaytin Robinson </p>
             <p><span>Estreia: </span> 2022</p>
           </div>
-          <p><span>Elenco: </span></p>
-          <p><span>Avaliações: </span></p>
+          <p><span>Elenco: </span>Natalie Portman (Jane Foster / Mighty Thor); Chris Hemsworth (Thor); Chris Pratt (Peter Quill / Star-Lord) e grande elenco</p>
+          <p><span>Avaliação: </span></p>
+
+          <div class="reviews">
+            <img src="./css/star-solid.svg" width="20" height="20" id="estrela-1">
+            <img src="./css/star-solid.svg" width="20" height="20" id="estrela-2">
+            <img src="./css/star-solid.svg" width="20" height="20" id="estrela-3">
+            <img src="./css/star-solid.svg" width="20" height="20" id="estrela-4">
+            <img src="./css/star-regular.svg" width="20" height="20" id="estrela-5">
+          </div>
+
         </div>
       </div>
     </div>
@@ -91,7 +95,6 @@
         </select>
       </table>
 
-
       <table id="tab2">
         <div id="f1" class="destaque"><img src="./img/filme1.png" width="200" height="290"></div>
         <div id="f2" class="destaque"><img src="./img/filme2.png" width="200" height="290"></div>
@@ -100,12 +103,127 @@
       </table>
 
       <table id="tab4">
-        <div id="botao"><a>+ Carregar mais filmes</a></div>
+        <div id="botao"><a style="color: white;" href="#">+ Carregar mais filmes</a></div>
+      </table>
+      <!--fim da parte do destaque-->
+    </div>
+    <!--Começo da parte "Últimas avaliações"-->
+    <div class="div-ultimas-avaliacoes">
+      <!--parte das Últimas avaliações-->
+      <h1 id="dest">Últimas avaliações</h1>
+      <!--Box-container das Últimas avaliações-->
+      <div class="ultimas-avaliacoes-testimonial-box-container">
+        <!--Avaliação 1-->
+        <div class="testimonial-box">
+          <!--box-top-->
+          <div class="box-top">
+            <!--profile-->
+            <div class="profile">
+              <!--Imagem de perfil genérica-->
+              <div class="profile-image">
+                <img src="./css/circle-user-regular.svg" id="avaliador-1" width="50" height="72.5">
+
+                <!--Nome/nome de usuário do avaliador-->
+                <div class="name-user">
+                  <h2>Nome do avaliador</h2>
+                </div>
+
+                <br>
+
+                <div class="client-comments">
+                  <p id="review-text-1"><span>Avaliação: </span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ducimus atque repellat pariatur vero dolores temporibus ab dicta rerum esse! Provident quae similique, autem molestiae rerum voluptatem qui amet totam!</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="reviews">
+              <img src="./css/star-solid.svg" width="20" height="20" id="estrela-1">
+              <img src="./css/star-solid.svg" width="20" height="20" id="estrela-2">
+              <img src="./css/star-solid.svg" width="20" height="20" id="estrela-3">
+              <img src="./css/star-solid.svg" width="20" height="20" id="estrela-4">
+              <img src="./css/star-regular.svg" width="20" height="20" id="estrela-5">
+
+              <h4 class="data-review-1">02/09/2020</h4>
+            </div>
+          </div>
+        </div>
+
+        <!--Avaliação 2-->
+        <div class="testimonial-box">
+          <!--box-top-->
+          <div class="box-top">
+            <!--profile-->
+            <div class="profile">
+              <!--Imagem de perfil genérica-->
+              <div class="profile-image">
+                <img src="./css/circle-user-regular.svg" id="avaliador-2" width="50" height="72.5">
+
+                <!--Nome/nome de usuário do avaliador-->
+                <div class="name-user">
+                  <h2>Nome do avaliador</h2>
+                </div>
+
+                <br>
+
+                <div class="client-comments">
+                  <p id="review-text-2"><span>Avaliação: </span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ducimus atque repellat pariatur vero dolores temporibus ab dicta rerum esse! Provident quae similique, autem molestiae rerum voluptatem qui amet totam!</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="reviews">
+              <img src="./css/star-solid.svg" width="20" height="20" id="estrela-1">
+              <img src="./css/star-solid.svg" width="20" height="20" id="estrela-2">
+              <img src="./css/star-solid.svg" width="20" height="20" id="estrela-3">
+              <img src="./css/star-solid.svg" width="20" height="20" id="estrela-4">
+              <img src="./css/star-regular.svg" width="20" height="20" id="estrela-5">
+
+              <h4 class="data-review-1">02/09/2020</h4>
+            </div>
+          </div>
+        </div>
+
+        <!--Avaliação 3-->
+        <div class="testimonial-box">
+          <!--box-top-->
+          <div class="box-top">
+            <!--profile-->
+            <div class="profile">
+              <!--Imagem de perfil genérica-->
+              <div class="profile-image">
+                <img src="./css/circle-user-regular.svg" id="avaliador-3" width="50" height="72.5">
+
+                <!--Nome/nome de usuário do avaliador-->
+                <div class="name-user">
+                  <h2>Nome do avaliador</h2>
+                </div>
+
+                <br>
+
+                <div class="client-comments">
+                  <p id="review-text-3"><span>Avaliação: </span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ducimus atque repellat pariatur vero dolores temporibus ab dicta rerum esse! Provident quae similique, autem molestiae rerum voluptatem qui amet totam!</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="reviews">
+              <img src="./css/star-solid.svg" width="20" height="20" id="estrela-1">
+              <img src="./css/star-solid.svg" width="20" height="20" id="estrela-2">
+              <img src="./css/star-solid.svg" width="20" height="20" id="estrela-3">
+              <img src="./css/star-solid.svg" width="20" height="20" id="estrela-4">
+              <img src="./css/star-regular.svg" width="20" height="20" id="estrela-5">
+
+              <h4 class="data-review-1">02/09/2020</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <table id="tab4">
+        <div id="botao-mais-avaliacoes"><a style="color: white;" href="#">+ Carregar mais avaliações</a></div>
       </table>
 
-
-      <!--fim da parte do destaque-->
-
+      <!--Fim da parte "Últimas avaliações"-->
     </div>
 
     <div class="div-entrevista_makingof">
@@ -128,6 +246,7 @@
     </div>
     
   </div>
+
   <footer>
 
     <label>
