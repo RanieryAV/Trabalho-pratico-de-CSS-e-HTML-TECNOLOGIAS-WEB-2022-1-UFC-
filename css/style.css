@@ -179,9 +179,26 @@ header{
       width: 100%;
       margin-bottom : .5em;
       table-layout: fixed;
-   
-  
   }
+
+
+  .div-entrevista_makingof{
+      display:inline;
+      margin-left:30px;
+      margin-right:30px;
+      top:30px;
+      position: relative;
+      left:15%;
+  }
+
+  #tab6{/*tabela de entrevistas*/
+    position: relative;
+    width: 100%;
+    margin-bottom : .5em;
+    table-layout: fixed;
+}
+
+
   #botao{/*botao*/
   position: relative;
   left:71%;
