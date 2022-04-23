@@ -12,7 +12,6 @@ header{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
-  
   #img-logo{
     display: flex;
     width: 100px;
@@ -32,16 +31,6 @@ header{
     justify-content: center;
     float: center;
   }
-  /* Depreciado/Não-usado/Descartar
-  .search-bar{
-    display: flexbox;
-    position: relative;
-    float: right;
-    margin-right: 2%;
-    align-items: right;
-    right: -25%; /*Atenção: Essa é uma solução gambiarra forçando a barra ficar a -25% da margem direita. Acho que não será portável para telas de tamanho diferente (minha tela tem 15 polegadas, se não me engano). Fazer direito assim que possível, por favor.
-  }
-  */
 
   .teste{
     display: flex;
@@ -151,7 +140,7 @@ header{
   }
    /*parte q fiz do destaque*/
     .div-em-destaque{/*apagar isso depois*/
-      background-color: rgb(245, 175, 90);
+      background-color: rgb(255, 255, 255);
     }
   #dest{/*titulos dos destaques*/
       position: absolute;
@@ -209,6 +198,7 @@ header{
     background-color: rgba(128, 128, 128, 0.89);
   }
 
+
   .div-entrevista_makingof{
     display: inline-block;
     flex-direction: column;
@@ -255,4 +245,115 @@ header{
   }
 
 
+
+
+  #tab1-ultimas-avaliacoes{/*tabela dos filmes*/
+    position: relative;
+    width: 100%;
+    margin-bottom : .5em;
+    table-layout: fixed;
+    position: relative;
+    width: 100%;
+    margin-bottom : .5em;
+    table-layout: fixed;
+
+}
+
+#botao-mais-avaliacoes{/*botao*/
+  position: relative;
+  left:71%;
+  font-size: 25px;
+  color: aquamarine;
+  font: bold 12px/24px arial, helvetica, sans-aerif;	
+  padding:0px;
+  text-decoration: none;
+  text-align:center;	
+  color:#ccc;
+  background: rgb(28, 27, 27);	
+  width:170px;  
+  height:24px;
+  margin-top: 50px;
+  
+  margin-bottom: 20px;
+  
+  border-radius: 5px;
+      }
+
+.ultimas-avaliacoes-testimonial-box-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.testimonial-box{
+  width: 300px;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 15px;
+  cursor: pointer;
+  margin-top: 5%;
+}
+
+.profile-image{
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin-right: 10px;
+}
+
+.name-user{
+  display: inline-block;
+  margin-left: 5%;
+}
+
+#avaliador-1{
+  margin-bottom: -10%;
+}
+
+#avaliador-2{
+  margin-bottom: -10%;
+}
+
+#avaliador-3{
+  margin-bottom: -10%;
+}
+
+.data-review-1{
+  display: inline-block;
+  margin-left: 1.5%;
+  
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+}
+
+.client-comments span{
+  font-weight: bold;
+}
+
+#review-text-1{
+  margin-left: 25%;
+}
+
+#review-text-2{
+  margin-left: 25%;
+}
+
+#review-text-3{
+  margin-left: 25%;
+}
+
+.testimonial-box:hover{
+  transform: translateY(-10px);
+  transition: all ease 0.3s;
+}
+
+.reviews{
+  margin-left: 23.5%;
+}
 
