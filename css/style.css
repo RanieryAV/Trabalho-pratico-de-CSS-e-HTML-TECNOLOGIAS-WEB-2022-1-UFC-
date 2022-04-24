@@ -205,8 +205,9 @@ header{
     width: 100%;
     margin-bottom : .5em;
     background-color: rgb(212, 208, 208);
-    padding-bottom: 5vh;
+    padding-top: 5vh;
     text-align: center;
+    line-height: 20%;
   }
   
   #entr, .novidades h1{
@@ -214,13 +215,28 @@ header{
     left: 17.5%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
+
+  #ff1{
+    line-height: 80%;
+    font-size: 18px;
+  }
+
+  #ff2{
+    line-height: 80%;
+    font-size: 18px;
+  }
+
+  #ff3{
+    line-height: 80%;
+    font-size: 18px;
+  }
   
   .j1{
     display: inline-block;
     position: relative;
     font-size: 15px;
     text-align: left;
-    padding: 1vw 0vw 1vw 0vw;
+    padding-top: 12vh;
     table-layout: fixed;
   }
   .j2{
@@ -228,7 +244,7 @@ header{
     position: relative;
     font-size: 15px;
     text-align: left;
-    padding: 5vw 0vw 5vw 0vw;
+    padding-top: 12vh;
     table-layout: fixed;
   }
   .j3{
@@ -236,12 +252,13 @@ header{
     position: relative;
     font-size: 15px;
     text-align: left;
-    padding: 5vw 0vw 5vw 0vw;
+    padding-top: 12vh;
     table-layout: fixed;
   }
   
   .div-entrevista_makingof span{
     font-weight: bold;
+    
   }
 
 
