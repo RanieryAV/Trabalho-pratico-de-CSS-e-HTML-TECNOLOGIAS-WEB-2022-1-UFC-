@@ -209,7 +209,7 @@ header{
     text-align: center;
   }
   
-  #entr{
+  #entr, .novidades h1{
     position: absolute;
     left: 17.5%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -357,23 +357,53 @@ header{
   margin-left: 23.5%;
 }
 
-.novidades{
-  border: 1px solid black;
+.final{
+  
   display: flex;
 }
 
-.novidades h1{
-  position: relative;
-  left: 17.5%;
+.novidades{
+  display: flex;
+  
+  width: 50%;
+  flex-direction: column;
 }
 
-.materias img{
-  width: 200px;
-  height: 150px;
+.novidades img{
+  width: 20%;
+  margin-left: 23%;
 }
 
 .titulo-materia{
-  border-bottom: 1px solid black;
-  margin-top: 30%;
-  margin-bottom: 10%
+  display: flex;
+  margin: 10% 0 3% 0;
+  align-items: flex-start;  
+  justify-content: center;
+}
+
+#titulo-materia{
+  margin-top: 3%;
+}
+
+hr{
+  height: 2px;
+  background-color: grey;
+  width: 80%;
+}
+
+.titulo-materia h3{
+  margin-bottom: 2%;
+}
+
+.teste5{
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+
+.teste5 span{
+  color: white;
+  background-color:grey;
+  border-radius: 10px;
+  padding-left: 2%;
+  padding-right: 2%;
 }
