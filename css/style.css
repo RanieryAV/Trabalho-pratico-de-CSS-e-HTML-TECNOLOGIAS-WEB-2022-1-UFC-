@@ -357,3 +357,23 @@ header{
   margin-left: 23.5%;
 }
 
+.novidades{
+  border: 1px solid black;
+  display: flex;
+}
+
+.novidades h1{
+  position: relative;
+  left: 17.5%;
+}
+
+.materias img{
+  width: 200px;
+  height: 150px;
+}
+
+.titulo-materia{
+  border-bottom: 1px solid black;
+  margin-top: 30%;
+  margin-bottom: 10%
+}
