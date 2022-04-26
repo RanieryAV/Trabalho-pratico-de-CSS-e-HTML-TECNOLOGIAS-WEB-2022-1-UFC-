@@ -388,14 +388,16 @@ header{
 
 .novidades img{
   width: 20%;
-  margin-left: 23%;
+  margin-left: 14.5%;
 }
 
 .titulo-materia{
   display: flex;
   margin: 10% 0 3% 0;
   align-items: flex-start;  
-  justify-content: center;
+  justify-content: left;
+  text-align: left;
+  float: left;
 }
 
 #titulo-materia{
@@ -405,7 +407,12 @@ header{
 hr{
   height: 2px;
   background-color: grey;
-  width: 80%;
+  width: 84.5%;
+  text-align: right;
+  float: right;
+  align-items: right;
+  align-self: right;
+  margin-right: 1%;
 }
 
 .titulo-materia h3{
@@ -423,4 +430,19 @@ hr{
   border-radius: 10px;
   padding-left: 2%;
   padding-right: 2%;
+}
+
+#img-the-batman{
+  float: left;
+}
+
+.sobre-editorial-redes-socais{
+  display: flex;
+  
+  width: 50%;
+  flex-direction: column;
+}
+
+.titulo-materia p{
+  width: 450px;
 }
