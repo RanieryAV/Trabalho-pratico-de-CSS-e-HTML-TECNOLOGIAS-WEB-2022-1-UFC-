@@ -424,3 +424,8 @@ hr{
   padding-left: 2%;
   padding-right: 2%;
 }
+#divcont{
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
