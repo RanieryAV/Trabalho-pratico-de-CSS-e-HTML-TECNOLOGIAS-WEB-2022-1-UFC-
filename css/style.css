@@ -446,3 +446,9 @@ hr{
 .titulo-materia p{
   width: 450px;
 }
+
+.sobre-editorial-redes-socais{
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
