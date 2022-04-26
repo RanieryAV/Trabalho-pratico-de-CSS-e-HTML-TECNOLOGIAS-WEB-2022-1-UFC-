@@ -407,12 +407,12 @@ header{
 hr{
   height: 2px;
   background-color: grey;
-  width: 84.5%;
+  width: 86%;
   text-align: right;
   float: right;
   align-items: right;
   align-self: right;
-  margin-right: 1%;
+  margin-right: 0%;
 }
 
 .titulo-materia h3{
@@ -449,6 +449,10 @@ hr{
 
 .sobre-editorial-redes-socais{
   width: 50%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 3%;
+  /*margin-right: 2%;*//*Não usar margin-right, pois as imagens da seção "Novidades" ficam muito pequenas*/
+}
+
+.sobre-editorial-redes-socais p{
+  width: 400px;
 }
